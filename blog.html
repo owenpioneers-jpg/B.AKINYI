@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog — Beryl Akinyi | Thoughts on Justice, Safety & Community</title>
+  <meta name="description" content="Articles and reflections by Beryl Akinyi on criminal justice reform, community safety in Kenya, policy advocacy, and personal stories from the frontlines."/>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="blog.css" />
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <div class="navbar__inner">
+        <a href="index.html" class="navbar__logo">Beryl Akinyi</a>
+        <ul class="navbar__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="blog.html" class="active">Blog</a></li>
+        </ul>
+        <a href="contact.html" class="navbar__cta">Get In Touch</a>
+        <div class="navbar__hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+      <ul class="navbar__mobile" id="mobileMenu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="blog-hero">
+    <div class="blog-hero__bg-text" aria-hidden="true">BLOG</div>
+    <div class="blog-hero__orb blog-hero__orb--1" aria-hidden="true"></div>
+    <div class="blog-hero__orb blog-hero__orb--2" aria-hidden="true"></div>
+    <div class="container">
+      <div class="blog-hero__inner">
+        <div class="blog-hero__content">
+          <span class="label">Writing &amp; Reflections</span>
+          <div class="section-divider"></div>
+          <h1 class="blog-hero__title">Words That<br/><em>Move the Needle.</em></h1>
+          <p class="blog-hero__desc">Honest writing on criminal justice reform, community safety in Kenya, policy advocacy, and the personal experiences that shape this work. No jargon. Just truth.</p>
+          <div class="blog-hero__meta">
+            <div class="blog-hero__meta-item">
+              <span class="blog-hero__meta-num">8</span>
+              <span class="blog-hero__meta-label">Articles</span>
+            </div>
+            <div class="blog-hero__meta-divider"></div>
+            <div class="blog-hero__meta-item">
+              <span class="blog-hero__meta-num">4</span>
+              <span class="blog-hero__meta-label">Topics</span>
+            </div>
+            <div class="blog-hero__meta-divider"></div>
+            <div class="blog-hero__meta-item">
+              <span class="blog-hero__meta-num">2025</span>
+              <span class="blog-hero__meta-label">Latest</span>
+            </div>
+          </div>
+        </div>
+        <div class="blog-hero__breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span class="active">Blog</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED -->
+  <section class="blog-featured">
+    <div class="container">
+      <span class="label" style="display:block; margin-bottom:24px;">Featured Article</span>
+      <a href="blog/article.html" class="featured-article">
+        <div class="featured-article__thumb">
+          <div class="featured-article__thumb-bg">⚖️</div>
+          <div class="featured-article__thumb-overlay"></div>
+        </div>
+        <div class="featured-article__body">
+          <div class="featured-article__meta">
+            <span class="badge badge--rose">Featured</span>
+            <span class="badge badge--blue">Criminal Justice Reform</span>
+            <span class="featured-article__read-time">· 7 min read</span>
+          </div>
+          <h2 class="featured-article__title">Why Kenya's Criminal Justice System Keeps Failing the People It's Meant to Protect</h2>
+          <p class="featured-article__excerpt">Pre-trial detention, overcrowded facilities, and a bail system that criminalises poverty — a frank look at the systemic failures that demand urgent reform. Kenya's justice system is not broken by accident. It is broken by design, and fixing it requires more than policy tweaks. It requires a fundamental rethinking of who justice is actually for.</p>
+          <div class="featured-article__footer">
+            <div class="featured-article__author">
+              <img src="Beryl.jpeg" alt="Beryl Akinyi" class="featured-article__author-img" />
+              <div>
+                <div class="featured-article__author-name">Beryl Akinyi</div>
+                <div class="featured-article__author-date">January 2025</div>
+              </div>
+            </div>
+            <span class="featured-article__cta">Read Article &rarr;</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- FILTER + GRID -->
+  <section class="blog-listing">
+    <div class="container">
+      <div class="blog-filters" id="blogFilters">
+        <button class="blog-filter-btn active" data-filter="all">All Articles</button>
+        <button class="blog-filter-btn" data-filter="reform">Criminal Justice Reform</button>
+        <button class="blog-filter-btn" data-filter="safety">Community Safety</button>
+        <button class="blog-filter-btn" data-filter="policy">Policy &amp; Advocacy</button>
+        <button class="blog-filter-btn" data-filter="personal">Personal Reflections</button>
+      </div>
+      <div class="blog-listing__count">Showing <span id="articleCount">8</span> articles</div>
+      <div class="blog-articles-grid" id="articlesGrid">
+
+        <article class="article-card reveal" data-category="reform">
+          <a href="blog/article.html" class="article-card__thumb">
+            <div class="article-card__thumb-bg" style="background:linear-gradient(135deg,#8faeb3,#7f9c87);">⚖️</div>
+            <div class="article-card__thumb-overlay"></div>
+          </a>
+          <div class="article-card__body">
+            <div class="article-card__meta"><span class="badge badge--blue">Reform</span><span class="article-card__date">Jan 2025 · 7 min</span></div>
+            <h3 class="article-card__title"><a href="blog/article.html">Why Kenya's Criminal Justice System Keeps Failing the People It's Meant to Protect</a></h3>
+            <p class="article-card__excerpt">Pre-trial detention, overcrowded facilities, and a bail system that criminalises poverty — a frank look at systemic failures that demand urgent reform.</p>
+            <a href="blog/article.html" class="article-card__read">Read Article &rarr;</a>
+          </div>
+        </article>
+
+        <article class="article-card reveal reveal--delay-1" data-category="safety">
+          <a href="blog/article.html" class="article-card__thumb">
+            <div class="article-card__thumb-bg" style="background:linear-gradient(135deg,#7f9c87,#cfa39a);">🏘️</div>
+            <div class="article-card__thumb-overlay"></div>
+          </a>
+          <div class="article-card__body">
+            <div class="article-card__meta"><span class="badge badge--sage">Safety</span><span class="article-card__date">Feb 2025 · 5 min</span></div>
+            <h3 class="article-card__title"><a href="blog/article.html">Community Policing in Nairobi: What's Working, What Isn't, and What Needs to Change</a></h3>
+            <p class="article-card__excerpt">Community policing holds real promise — but only when built on genuine trust, not surveillance. Here's what that looks like on the ground in Nairobi's informal settlements.</p>
+            <a href="blog/article.html" class="article-card__read">Read Article &rarr;</a>
+          </div>
+        </article>
+
+        <article class="article-card reveal reveal--delay-2" data-category="personal">
+          <a href="blog/article.html" class="article-card__thumb">
+            <div class="article-card__thumb-bg" style="background:linear-gradient(135deg,#cfa39a,#ede6d6);">💬</div>
+            <div class="article-card__thumb-overlay"></div>
+          </a>
+          <div class="article-card__body">
+            <div class="article-card__meta"><span class="badge badge--rose">Personal</span><span class="article-card__date">Mar 2025 · 4 min</span></div>
+            <h3 class="article-card__title"><a href="blog/article.html">The Day I Understood Why Rehabilitation Is Not a Soft Option — It's the Only Option</a></h3>
+            <p class="article-card__excerpt">A personal story about meeting a young man two years after his release, and what his journey taught me about what real second chances require from all of us.</p>
+            <a href="blog/article.html" class="article-card__read">Read Article &rarr;</a>
+          </div>
+        </article>
+
+        <article class="article-card reveal" data-category="policy">
+          <a href="blog/article.html" class="article-card__thumb">
+            <div class="article-card__thumb-bg" style="background:linear-gradient(135deg,#8faeb3,#cfa39a);">📜</div>
+            <div class="article-card__thumb-overlay"></div>
+          </a>
+          <div class="article-card__body">
+            <div class="article-card__meta"><span class="badge badge--warm">Policy</span><span class="article-card__date">Apr 2025 · 6 min</span></div>
+            <h3 class="article-card__title"><a href="blog/article.html">Reforming Kenya's Bail and Bond Policy: A Case for Decriminalising Poverty</a></h3>
+            <p class="article-card__excerpt">When bail amounts are set without regard to a defendant's financial reality, pretrial detention becomes a punishment for being poor. This must change — and here's how.</p>
+            <a href="blog/article.html" class="article-card__read">Read Article &rarr;</a>
+          </div>
+        </article>
+
+        <article class="article-card reveal reveal--delay-1" data-category="reform">
+          <a href="blog/article.html" class="article-card__thumb">
+            <div class="article-card__thumb-bg" style="background:linear-gradient(135deg,#7f9c87,#8faeb3);">🔍</div>
+            <div class="article-card__thumb-overlay"></div>
+          </a>
+          <div class="article-card__body">
+            <div class="article-card__meta"><span class="badge badge--blue">Reform</span><span class="article-card__date">May 2025 · 8 min</span></div>
+            <h3 class="article-card__title"><a href="blog/article.html">Restorative Justice in Kenya: Lessons From Communities That Have Already Figured It Out</a></h3>
+            <p class="article-card__excerpt">Long before colonial courts arrived, Kenyan communities resolved conflict through dialogue, accountability, and repair. Restorative justice isn't a new idea — it's an old one we abandoned.</p>
+            <a href="blog/article.html" class="article-card__read">Read Article &rarr;</a>
+          </div>
+        </article>
+
+        <article class="article-card reveal reveal--delay-2" data-category="safety">
+          <a href="blog/article.html" class="article-card__thumb">
+            <div class="article-card__thumb-bg" style="background:linear-gradient(135deg,#d8cfc1,#7f9c87);">🌱</div>
+            <div class="article-card__thumb-overlay"></div>
+          </a>
+          <div class="article-card__body">
+            <div class="article-card__meta"><span class="badge badge--sage">Safety</span><span class="article-card__date">Jun 2025 · 5 min</span></div>
+            <h3 class="article-card__title"><a href="blog/article.html">Youth Violence Prevention: Why We Must Invest Upstream, Not Just Respond Downstream</a></h3>
+            <p class="article-card__excerpt">Every young person drawn into violence is a failure of the systems meant to support them — schools, families, government. Preventing violence starts long before a crime is committed.</p>
+            <a href="blog/article.html" class="article-card__read">Read Article &rarr;</a>
+          </div>
+        </article>
+
+        <article class="article-card reveal" data-category="personal">
+          <a href="blog/article.html" class="article-card__thumb">
+            <div class="article-card__thumb-bg" style="background:linear-gradient(135deg,#cfa39a,#8faeb3);">✍️</div>
+            <div class="article-card__thumb-overlay"></div>
+          </a>
+          <div class="article-card__body">
+            <div class="article-card__meta"><span class="badge badge--rose">Personal</span><span class="article-card__date">Jul 2025 · 3 min</span></div>
+            <h3 class="article-card__title"><a href="blog/article.html">What Working in Criminal Justice Taught Me About Listening</a></h3>
+            <p class="article-card__excerpt">Most people in the justice system have never had anyone sit with them and truly listen. That simple act — presence without agenda — is more powerful than any programme I've ever run.</p>
+            <a href="blog/article.html" class="article-card__read">Read Article &rarr;</a>
+          </div>
+        </article>
+
+        <article class="article-card reveal reveal--delay-1" data-category="policy">
+          <a href="blog/article.html" class="article-card__thumb">
+            <div class="article-card__thumb-bg" style="background:linear-gradient(135deg,#8faeb3,#d8cfc1);">🏛️</div>
+            <div class="article-card__thumb-overlay"></div>
+          </a>
+          <div class="article-card__body">
+            <div class="article-card__meta"><span class="badge badge--warm">Policy</span><span class="article-card__date">Aug 2025 · 6 min</span></div>
+            <h3 class="article-card__title"><a href="blog/article.html">Civil Society and Criminal Justice Reform in Kenya: Why Advocates Must Have a Seat at the Table</a></h3>
+            <p class="article-card__excerpt">Policy written without the people who live inside the system is policy that will fail. Here's why civil society's role in justice reform is not optional — it's essential.</p>
+            <a href="blog/article.html" class="article-card__read">Read Article &rarr;</a>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="blog-empty" id="blogEmpty" style="display:none;">
+        <div class="blog-empty__icon">📭</div>
+        <h3>No articles in this category yet</h3>
+        <p>Check back soon — more writing is on the way.</p>
+        <button class="btn btn--outline" id="clearFilterBtn">View All Articles</button>
+      </div>
+      <div class="blog-load-more" id="loadMoreWrap">
+        <button class="btn btn--ghost" id="loadMoreBtn">Load More Articles</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUBSCRIBE -->
+  <section class="blog-subscribe">
+    <div class="container">
+      <div class="blog-subscribe__inner reveal">
+        <div class="blog-subscribe__text">
+          <span class="label label--sage">Stay Updated</span>
+          <div class="section-divider"></div>
+          <h2>New Articles<br/><em>In Your Inbox</em></h2>
+          <p>No spam. Just thoughtful writing on justice, safety, and community — when it's ready.</p>
+        </div>
+        <div class="blog-subscribe__form">
+          <div class="subscribe-input-wrap">
+            <input type="email" class="subscribe-input" placeholder="your@email.com" aria-label="Email address" id="subscribeEmail"/>
+            <button class="subscribe-btn" id="subscribeBtn">Subscribe &rarr;</button>
+          </div>
+          <p class="subscribe-note" id="subscribeNote">Unsubscribe any time. No spam, ever.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div>
+          <div class="footer__brand-name">Beryl <span style="color:var(--dusty-rose)">Akinyi</span></div>
+          <p class="footer__brand-tagline">Criminal Justice Management &amp; Community Safety Advocate — committed to equitable, people-first reform.</p>
+          <div class="footer__socials">
+            <a href="https://linkedin.com/in/beryl-akinyi-a3930429b" target="_blank" rel="noopener" class="footer__social-link" aria-label="LinkedIn">in</a>
+            <a href="mailto:berylakinyi2004b@gmail.com" class="footer__social-link" aria-label="Email">@</a>
+            <a href="tel:+254769112218" class="footer__social-link" aria-label="Phone">📞</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer__col-title">Navigation</div>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__col-title">Get In Touch</div>
+          <ul class="footer__links">
+            <li><a href="mailto:berylakinyi2004b@gmail.com">berylakinyi2004b@gmail.com</a></li>
+            <li><a href="tel:+254769112218">0769 112 218</a></li>
+            <li><a href="tel:+254782370523">0782 370 523</a></li>
+            <li><a href="https://linkedin.com/in/beryl-akinyi-a3930429b" target="_blank" rel="noopener">LinkedIn Profile</a></li>
+            <li style="color:var(--warm-gray); font-size:0.85rem;">📍 Nairobi, Kenya</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span class="footer__copy">&copy; 2025 Beryl Akinyi. All Rights Reserved.</span>
+        <span class="footer__copy">Built with purpose.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="blog.js"></script>
+</body>
+</html>

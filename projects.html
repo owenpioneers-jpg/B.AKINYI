@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects — Beryl Akinyi | Criminal Justice & Community Safety Work</title>
+  <meta name="description" content="Case studies and projects by Beryl Akinyi — offender rehabilitation, probation work, risk assessments, crime pattern analysis, and community development in Nairobi, Kenya."/>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="projects.css" />
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <div class="navbar__inner">
+        <a href="index.html" class="navbar__logo">Beryl Akinyi</a>
+        <ul class="navbar__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html" class="active">Projects</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+        <a href="contact.html" class="navbar__cta">Get In Touch</a>
+        <div class="navbar__hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+      <ul class="navbar__mobile" id="mobileMenu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- HERO -->
+  <section class="projects-hero">
+    <div class="projects-hero__bg-text" aria-hidden="true">WORK</div>
+    <div class="projects-hero__orb projects-hero__orb--1" aria-hidden="true"></div>
+    <div class="projects-hero__orb projects-hero__orb--2" aria-hidden="true"></div>
+    <div class="container">
+      <div class="projects-hero__inner">
+        <div class="projects-hero__content">
+          <span class="label">Selected Work</span>
+          <div class="section-divider"></div>
+          <h1 class="projects-hero__title">Work That<br/><em>Changes Things.</em></h1>
+          <p class="projects-hero__desc">From offender rehabilitation at Makadara Probation to community mentorship and crime pattern analysis — a body of work built on direct engagement, evidence, and a belief in every person's capacity for change.</p>
+          <div class="projects-hero__stats">
+            <div class="projects-hero__stat">
+              <span class="projects-hero__stat-num">7</span>
+              <span class="projects-hero__stat-label">Focus Areas</span>
+            </div>
+            <div class="projects-hero__stat-divider"></div>
+            <div class="projects-hero__stat">
+              <span class="projects-hero__stat-num">30+</span>
+              <span class="projects-hero__stat-label">Communities</span>
+            </div>
+            <div class="projects-hero__stat-divider"></div>
+            <div class="projects-hero__stat">
+              <span class="projects-hero__stat-num">5k+</span>
+              <span class="projects-hero__stat-label">Lives Touched</span>
+            </div>
+          </div>
+        </div>
+        <div class="projects-hero__breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span class="active">Projects</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FEATURED PROJECT -->
+  <section class="featured-project-section">
+    <div class="container">
+      <span class="label" style="display:block; margin-bottom:24px;">Featured Project</span>
+      <div class="featured-project">
+        <div class="featured-project__visual">
+          <div class="featured-project__thumb">🔄</div>
+          <div class="featured-project__overlay"></div>
+          <div class="featured-project__badge">
+            <span class="badge badge--rose">Featured</span>
+            <span class="badge badge--sage">Rehabilitation</span>
+          </div>
+        </div>
+        <div class="featured-project__body">
+          <div class="featured-project__year">Makadara Probation Office · Nairobi, Kenya</div>
+          <h2 class="featured-project__title">Offender Rehabilitation: Risk Assessment &amp; Individual Treatment Planning</h2>
+          <p class="featured-project__desc">At the heart of Beryl's probation work is a structured, person-centred approach to offender rehabilitation. Each case begins with a comprehensive risk assessment — evaluating criminogenic needs, protective factors, and reoffending risk — followed by an individualised treatment plan tailored to that person's specific circumstances, strengths, and challenges. The goal is not compliance. It is lasting behavioural change and successful reintegration into the community.</p>
+          <div class="featured-project__impact">
+            <div class="featured-project__impact-item">
+              <div class="featured-project__impact-num">Risk</div>
+              <div class="featured-project__impact-label">Assessment Led</div>
+            </div>
+            <div class="featured-project__impact-item">
+              <div class="featured-project__impact-num">ITP</div>
+              <div class="featured-project__impact-label">Individual Treatment Plans</div>
+            </div>
+            <div class="featured-project__impact-item">
+              <div class="featured-project__impact-num">Community</div>
+              <div class="featured-project__impact-label">Reintegration Focus</div>
+            </div>
+          </div>
+          <div class="featured-project__tags">
+            <span class="badge badge--sage">Rehabilitation</span>
+            <span class="badge badge--blue">Probation</span>
+            <span class="badge badge--rose">Risk Assessment</span>
+            <span class="badge badge--warm">Makadara</span>
+          </div>
+          <a href="contact.html" class="btn btn--primary" style="margin-top:8px;">Discuss This Work &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FILTER + GRID -->
+  <section class="projects-listing">
+    <div class="container">
+
+      <div class="projects-filters">
+        <button class="projects-filter-btn active" data-filter="all">All Projects</button>
+        <button class="projects-filter-btn" data-filter="rehabilitation">Rehabilitation</button>
+        <button class="projects-filter-btn" data-filter="supervision">Supervision</button>
+        <button class="projects-filter-btn" data-filter="research">Research &amp; Analysis</button>
+        <button class="projects-filter-btn" data-filter="community">Community &amp; Mentorship</button>
+      </div>
+
+      <div class="projects-count">Showing <span id="projectCount">7</span> projects</div>
+
+      <div class="projects-grid" id="projectsGrid">
+
+        <!-- 1. Risk Assessment & Treatment Planning -->
+        <div class="project-item reveal" data-category="rehabilitation">
+          <div class="project-item__thumb" style="background:linear-gradient(135deg,#7f9c87,#8faeb3);">
+            <span class="project-item__emoji">📋</span>
+            <div class="project-item__thumb-overlay"></div>
+          </div>
+          <div class="project-item__body">
+            <div class="project-item__meta">
+              <span class="badge badge--sage">Rehabilitation</span>
+              <span class="project-item__year">Makadara Probation</span>
+            </div>
+            <h3 class="project-item__title">Offender Risk Assessment &amp; Individual Treatment Planning</h3>
+            <p class="project-item__desc">Conducting structured risk assessments for offenders under probation supervision — evaluating criminogenic needs, protective factors, and likelihood of reoffending. Each assessment informs a bespoke Individual Treatment Plan (ITP) designed to address root causes of offending behaviour and build the personal foundations for lasting change.</p>
+            <div class="project-item__outcomes">
+              <div class="project-item__outcome"><span>ITP</span> Per Offender</div>
+              <div class="project-item__outcome"><span>Evidence-Based</span> Approach</div>
+            </div>
+            <a href="contact.html" class="project-item__link">Discuss This Work &rarr;</a>
+          </div>
+        </div>
+
+        <!-- 2. Supervision of Offenders -->
+        <div class="project-item reveal reveal--delay-1" data-category="supervision">
+          <div class="project-item__thumb" style="background:linear-gradient(135deg,#8faeb3,#cfa39a);">
+            <span class="project-item__emoji">👁️</span>
+            <div class="project-item__thumb-overlay"></div>
+          </div>
+          <div class="project-item__body">
+            <div class="project-item__meta">
+              <span class="badge badge--blue">Supervision</span>
+              <span class="project-item__year">Makadara Probation</span>
+            </div>
+            <h3 class="project-item__title">Supervision of Offenders Under Probation</h3>
+            <p class="project-item__desc">Providing structured, regular supervision of offenders serving community-based sentences under the probation system. Supervision balances accountability with support — monitoring compliance with court orders while actively working with offenders to address barriers to reintegration such as unemployment, substance misuse, family breakdown, and lack of housing.</p>
+            <div class="project-item__outcomes">
+              <div class="project-item__outcome"><span>Regular</span> Check-ins</div>
+              <div class="project-item__outcome"><span>Court-Ordered</span> Compliance</div>
+            </div>
+            <a href="contact.html" class="project-item__link">Discuss This Work &rarr;</a>
+          </div>
+        </div>
+
+        <!-- 3. Probation Report Writing -->
+        <div class="project-item reveal reveal--delay-2" data-category="supervision">
+          <div class="project-item__thumb" style="background:linear-gradient(135deg,#cfa39a,#d8cfc1);">
+            <span class="project-item__emoji">📝</span>
+            <div class="project-item__thumb-overlay"></div>
+          </div>
+          <div class="project-item__body">
+            <div class="project-item__meta">
+              <span class="badge badge--blue">Supervision</span>
+              <span class="project-item__year">Makadara Probation</span>
+            </div>
+            <h3 class="project-item__title">Probation Report Writing for the Courts</h3>
+            <p class="project-item__desc">Preparing comprehensive pre-sentence and post-sentence probation reports for submission to the courts. These reports synthesise background investigations, offender interviews, risk assessments, and social enquiries into clear, evidence-based recommendations that inform judicial decision-making and sentencing outcomes — often determining whether an offender receives a custodial or community-based sentence.</p>
+            <div class="project-item__outcomes">
+              <div class="project-item__outcome"><span>Court-Ready</span> Reports</div>
+              <div class="project-item__outcome"><span>Sentencing</span> Influence</div>
+            </div>
+            <a href="contact.html" class="project-item__link">Discuss This Work &rarr;</a>
+          </div>
+        </div>
+
+        <!-- 4. Crime Pattern Analysis -->
+        <div class="project-item reveal" data-category="research">
+          <div class="project-item__thumb" style="background:linear-gradient(135deg,#8faeb3,#7f9c87);">
+            <span class="project-item__emoji">🔍</span>
+            <div class="project-item__thumb-overlay"></div>
+          </div>
+          <div class="project-item__body">
+            <div class="project-item__meta">
+              <span class="badge badge--rose">Research &amp; Analysis</span>
+              <span class="project-item__year">Makadara Probation</span>
+            </div>
+            <h3 class="project-item__title">Offender Crime Pattern Analysis at Makadara</h3>
+            <p class="project-item__desc">Analysing crime patterns among offenders under probation supervision at the Makadara Probation Office — identifying recurring offence types, geographic hotspots, demographic trends, and behavioural risk factors. This analysis informs both individual treatment planning and broader programme design, helping the probation service allocate resources where they are needed most and develop targeted intervention strategies.</p>
+            <div class="project-item__outcomes">
+              <div class="project-item__outcome"><span>Data-Driven</span> Insights</div>
+              <div class="project-item__outcome"><span>Makadara</span> District</div>
+            </div>
+            <a href="contact.html" class="project-item__link">Discuss This Work &rarr;</a>
+          </div>
+        </div>
+
+        <!-- 5. Client Interviewing & Report Presentation -->
+        <div class="project-item reveal reveal--delay-1" data-category="supervision">
+          <div class="project-item__thumb" style="background:linear-gradient(135deg,#d8cfc1,#8faeb3);">
+            <span class="project-item__emoji">🗣️</span>
+            <div class="project-item__thumb-overlay"></div>
+          </div>
+          <div class="project-item__body">
+            <div class="project-item__meta">
+              <span class="badge badge--blue">Supervision</span>
+              <span class="project-item__year">Makadara Probation</span>
+            </div>
+            <h3 class="project-item__title">Client Interviewing &amp; Presentation of Reports</h3>
+            <p class="project-item__desc">Conducting structured one-on-one interviews with offenders, their families, victims, and community stakeholders to gather the depth of information required for accurate, fair, and actionable probation reports. Interviews are conducted with trauma-informed care, cultural sensitivity, and a commitment to hearing the full human story behind each case. Findings are synthesised and presented clearly to courts, supervision teams, and other relevant bodies.</p>
+            <div class="project-item__outcomes">
+              <div class="project-item__outcome"><span>Trauma-Informed</span> Practice</div>
+              <div class="project-item__outcome"><span>Multi-Stakeholder</span> Interviews</div>
+            </div>
+            <a href="contact.html" class="project-item__link">Discuss This Work &rarr;</a>
+          </div>
+        </div>
+
+        <!-- 6. Mentorship & Community Development -->
+        <div class="project-item reveal reveal--delay-2" data-category="community">
+          <div class="project-item__thumb" style="background:linear-gradient(135deg,#7f9c87,#cfa39a);">
+            <span class="project-item__emoji">🌱</span>
+            <div class="project-item__thumb-overlay"></div>
+          </div>
+          <div class="project-item__body">
+            <div class="project-item__meta">
+              <span class="badge badge--warm">Community &amp; Mentorship</span>
+              <span class="project-item__year">Ongoing</span>
+            </div>
+            <h3 class="project-item__title">Mentorship &amp; Community Development</h3>
+            <p class="project-item__desc">Working directly with at-risk youth, ex-offenders, and marginalised community members through structured mentorship — building the personal skills, confidence, and social networks needed to avoid reoffending and build stable, purposeful lives. Community development work focuses on strengthening the social fabric of the neighbourhoods most affected by crime, working with local leaders, families, and institutions to create the conditions in which people can genuinely thrive.</p>
+            <div class="project-item__outcomes">
+              <div class="project-item__outcome"><span>Youth</span> Focused</div>
+              <div class="project-item__outcome"><span>Reoffending</span> Prevention</div>
+            </div>
+            <a href="contact.html" class="project-item__link">Discuss This Work &rarr;</a>
+          </div>
+        </div>
+
+        <!-- 7. Rehabilitation Participation -->
+        <div class="project-item reveal" data-category="rehabilitation">
+          <div class="project-item__thumb" style="background:linear-gradient(135deg,#cfa39a,#8faeb3);">
+            <span class="project-item__emoji">🔄</span>
+            <div class="project-item__thumb-overlay"></div>
+          </div>
+          <div class="project-item__body">
+            <div class="project-item__meta">
+              <span class="badge badge--sage">Rehabilitation</span>
+              <span class="project-item__year">Makadara Probation</span>
+            </div>
+            <h3 class="project-item__title">Participation in Offender Rehabilitation Programmes</h3>
+            <p class="project-item__desc">Active participation in the design, facilitation, and evaluation of rehabilitation programmes for offenders under probation supervision. This includes group sessions, individual counselling support, vocational guidance, and structured activities aimed at addressing the underlying behavioural, psychological, and social factors that contribute to offending — with the ultimate goal of enabling offenders to return to their communities as constructive, law-abiding members of society.</p>
+            <div class="project-item__outcomes">
+              <div class="project-item__outcome"><span>Group</span> &amp; Individual Sessions</div>
+              <div class="project-item__outcome"><span>Holistic</span> Approach</div>
+            </div>
+            <a href="contact.html" class="project-item__link">Discuss This Work &rarr;</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="projects-empty" id="projectsEmpty" style="display:none;">
+        <div class="projects-empty__icon">📭</div>
+        <h3>No projects in this category yet</h3>
+        <p>More work is being documented — check back soon.</p>
+        <button class="btn btn--outline" id="clearProjectFilterBtn">View All Projects</button>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- IMPACT BAND -->
+  <section class="impact-band">
+    <div class="container">
+      <div class="impact-band__inner reveal">
+        <div class="impact-band__heading">
+          <span class="label label--sage">Collective Impact</span>
+          <div class="section-divider"></div>
+          <h2>The Work<br/><em>In Numbers</em></h2>
+        </div>
+        <div class="impact-band__stats">
+          <div class="impact-stat">
+            <div class="impact-stat__num">5k<span>+</span></div>
+            <div class="impact-stat__label">Lives Directly Touched</div>
+          </div>
+          <div class="impact-stat">
+            <div class="impact-stat__num">30<span>+</span></div>
+            <div class="impact-stat__label">Communities Served</div>
+          </div>
+          <div class="impact-stat">
+            <div class="impact-stat__num">7</div>
+            <div class="impact-stat__label">Core Practice Areas</div>
+          </div>
+          <div class="impact-stat">
+            <div class="impact-stat__num">50<span>+</span></div>
+            <div class="impact-stat__label">Reports Submitted</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="testimonials-section__header reveal">
+        <span class="label">What People Say</span>
+        <div class="section-divider"></div>
+        <h2>Voices From<br/><em>The Work</em></h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal">
+          <div class="testimonial-card__quote">&ldquo;</div>
+          <p class="testimonial-card__text">[Beryl Akinyi has shown a remarkable turnaround, demonstrating maturity, honesty, and a strong commitment to moving forward positively. Their punctuality and dedication to their obligations prove they are ready for the workforce.".]</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__author-initial">M</div>
+            <div>
+              <div class="testimonial-card__name">[Mercy Kathambi]</div>
+              <div class="testimonial-card__role">[Probation Officer] · Makadara Probation Office</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal reveal--delay-1">
+          <div class="testimonial-card__quote">&ldquo;</div>
+          <p class="testimonial-card__text">[Beryl Akinyi is an exceptionally dedicated and results-driven professional. During their time at KIBESCO, they demonstrated a remarkable ability to manage complex projects while fostering meaningful relationships with diverse stakeholders..]</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__author-initial">F</div>
+            <div>
+              <div class="testimonial-card__name">[Francis Luchiri]</div>
+              <div class="testimonial-card__role">[Director,KIBESCO] · Nairobi</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal reveal--delay-2">
+          <div class="testimonial-card__quote">&ldquo;</div>
+          <p class="testimonial-card__text">[Testimonial from a court officer, magistrate, or legal aid partner — about the quality and usefulness of Beryl's probation reports or her professionalism in presenting findings.]</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__author-initial">L</div>
+            <div>
+              <div class="testimonial-card__name">[Lilian Gathigia]</div>
+              <div class="testimonial-card__role">[CEO] · [Glowmustard Talk]</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- CTA -->
+  <section class="cta-banner">
+    <div class="container">
+      <div class="reveal">
+        <span class="label" style="display:block; margin-bottom:20px;">Work Together</span>
+        <h2>Have a Project<br/>In Mind?</h2>
+        <p>Whether you need a consultant, a collaborator, or a speaker — Beryl brings expertise, commitment, and a track record of real-world impact in criminal justice and community safety.</p>
+        <div class="cta-banner__actions">
+          <a href="contact.html" class="btn btn--primary">Get In Touch &rarr;</a>
+          <a href="about.html" class="btn btn--outline">Learn More About Beryl</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div>
+          <div class="footer__brand-name">Beryl <span style="color:var(--dusty-rose)">Akinyi</span></div>
+          <p class="footer__brand-tagline">Criminal Justice Management &amp; Community Safety Advocate — committed to equitable, people-first reform.</p>
+          <div class="footer__socials">
+            <a href="https://linkedin.com/in/beryl-akinyi-a3930429b" target="_blank" rel="noopener" class="footer__social-link" aria-label="LinkedIn">in</a>
+            <a href="mailto:berylakinyi2004b@gmail.com" class="footer__social-link" aria-label="Email">@</a>
+            <a href="tel:+254769112218" class="footer__social-link" aria-label="Phone">📞</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer__col-title">Navigation</div>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__col-title">Get In Touch</div>
+          <ul class="footer__links">
+            <li><a href="mailto:berylakinyi2004b@gmail.com">berylakinyi2004b@gmail.com</a></li>
+            <li><a href="tel:+254769112218">0769 112 218</a></li>
+            <li><a href="tel:+254782370523">0782 370 523</a></li>
+            <li><a href="https://linkedin.com/in/beryl-akinyi-a3930429b" target="_blank" rel="noopener">LinkedIn Profile</a></li>
+            <li style="color:var(--warm-gray); font-size:0.85rem;">📍 Nairobi, Kenya</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span class="footer__copy">&copy; 2025 Beryl Akinyi. All Rights Reserved.</span>
+        <span class="footer__copy">Built with purpose.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="projects.js"></script>
+</body>
+</html>
